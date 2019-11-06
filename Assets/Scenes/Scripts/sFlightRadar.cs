@@ -2321,8 +2321,8 @@ public class sFlightRadar : MonoBehaviour {
         myPlaneParameters_OpenSky myOnePlanePars = myAllPlanesPars[mySelectedPlane];
 
         // Баннер с дополнительной информацией
-        myBanner2Fields["Call"].text = "Позывной: " + myOnePlanePars.callsign;
-        myBanner2Fields["Icao"].text = "Код ИКАО: " + myOnePlanePars.icao24;
+        myBanner2Fields["Call"].text = "Callsign: " + myOnePlanePars.callsign;
+        myBanner2Fields["Icao"].text = "ICAO Code: " + myOnePlanePars.icao24;
         myBanner2Fields["Model"].text = "Модель ВС: " + myOnePlanePars.myModel;
         myBanner2Fields["Oper"].text = "Оператор: " + myOnePlanePars.myOperator;
         myBanner2Fields["From"].text = "From: " + myOnePlanePars.myFrom;
